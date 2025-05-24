@@ -54,7 +54,7 @@ export const clerkWebhooks = async (req, res) => {
       }
     }
   } catch (error) {
-    console.log(erroe.massage)
+    console.log(error.massage)
     res.json({ success: false, massage: 'Webhooks Error' })
   }
 }
